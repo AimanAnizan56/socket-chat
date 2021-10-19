@@ -19,6 +19,6 @@ form.addEventListener('submit', function (e) {
 socket.on('chat message', function (msg) {
     var item = document.createElement('li'); // create new list element
     item.textContent = msg; // add `msg` to list
-    messages.appendChild = item; // append list to parent `ul`
+    messages.appendChild(item); // append list to parent `ul`
     window.scrollTo(0, document.body.scrollHeight); // scroll to the bottom
 });
