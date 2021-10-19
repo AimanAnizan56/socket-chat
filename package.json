@@ -1,0 +1,19 @@
+{
+    "name": "socket-chat",
+    "version": "1.0.0",
+    "description": "socket.io tutorial from official docs",
+    "main": "index.js",
+    "scripts": {
+        "run": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AimanAnizan56/socket-chat.git"
+    },
+    "author": "aiman anizan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AimanAnizan56/socket-chat/issues"
+    },
+    "homepage": "https://github.com/AimanAnizan56/socket-chat#readme"
+}
