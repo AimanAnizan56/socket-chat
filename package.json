@@ -15,5 +15,9 @@
     "bugs": {
         "url": "https://github.com/AimanAnizan56/socket-chat/issues"
     },
-    "homepage": "https://github.com/AimanAnizan56/socket-chat#readme"
+    "homepage": "https://github.com/AimanAnizan56/socket-chat#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^4.3.1"
+    }
 }
