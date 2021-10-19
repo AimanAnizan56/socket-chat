@@ -4,7 +4,8 @@
     "description": "socket.io tutorial from official docs",
     "main": "index.js",
     "scripts": {
-        "connect": "nodemon index.js"
+        "connect": "nodemon index.js",
+        "min": "minify private/style.css > public/style.min.css && minify private/script.js > public/script.min.js"
     },
     "repository": {
         "type": "git",
