@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-// make server to listen 3000 port
+// make HTTP server listen to 3000 port
 server.listen(port, () => {
     console.log(`listening on: http://localhost:${port}\n`);
 });
