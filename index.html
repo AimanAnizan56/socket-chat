@@ -58,5 +58,11 @@
         <form id="form" action="">
             <input id="input" autocomplete="off" /><button>Send</button>
         </form>
+        <!-- Load `socket.io-client` which expose an `io` global -->
+        <!-- endpoint: `GET /socket.io./socket.io.js` -->
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io();
+        </script>
     </body>
 </html>
