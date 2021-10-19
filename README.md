@@ -1,4 +1,4 @@
-# Simple socket.io chat app
+# Simple Socket.IO Chat App
 
 This code is from [Socket.IO](https://socket.io/get-started/chat) tutorial with some amendment. :smile:
 
@@ -6,6 +6,7 @@ This code is from [Socket.IO](https://socket.io/get-started/chat) tutorial with 
 
 1. Open terminal and install nodemon using `npm install nodemon`.
 2. After install `nodemon`, use `npm run connect`.
+3. Open URL `http://localhost:3000`.
 
 ## Editing :floppy_disk:
 
@@ -15,8 +16,8 @@ This code is from [Socket.IO](https://socket.io/get-started/chat) tutorial with 
 
 ## Requirement :memo:
 
-1. [NodeJS](https://nodejs.org/en/) with `NPM` : Managing packages.
-2. [Nodemon](https://www.npmjs.com/package/nodemon) : Auto execute `index.js`.
+1. [NodeJS](https://nodejs.org/en/) with `NPM` : For managing packages.
+2. [Nodemon](https://www.npmjs.com/package/nodemon) : Execute `index.js` automatically.
 3. [Express](https://www.npmjs.com/package/express) : Provide `HTTP` server-side.
 4. [Socket.IO](https://www.npmjs.com/package/socket.io) : Enable `real-time` bidirectional event-based communication.
 
