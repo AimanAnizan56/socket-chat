@@ -6,6 +6,8 @@ const server = http.createServer(app); // initialize app to supply to HTTP serve
 const { Server } = require('socket.io'); // initialize instance of `socket.io`
 const io = new Server(server);
 
+// serve static files
+app.use('/src', express.static('public'));
 // define router handler
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
