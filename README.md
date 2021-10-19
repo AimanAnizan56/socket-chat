@@ -1,4 +1,4 @@
-# Simple Socket.IO Chat App
+# Simple Socket.IO Chat App :iphone:
 
 This code is from [Socket.IO](https://socket.io/get-started/chat) tutorial with some amendment. :smile:
 
