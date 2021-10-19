@@ -13,7 +13,7 @@ This code is from [Socket.IO](https://socket.io/get-started/chat) tutorial with 
 2. After editing code in private folder, use `npm run min` to minify the files.
 3. `Nodemon` will automatically run the files again.
 
-## Requirement
+## Requirement :memo:
 
 1. [NodeJS](https://nodejs.org/en/) with `NPM` : Managing packages.
 2. [Nodemon](https://www.npmjs.com/package/nodemon) : Auto execute `index.js`.
