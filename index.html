@@ -63,6 +63,20 @@
         <script src="/socket.io/socket.io.js"></script>
         <script>
             var socket = io();
+            var form = document.getElementById('form');
+            var input = document.getElementById('input');
+
+            // add event listener for form
+            form.addEventListener('submit', function (e) {
+                // prevent default event -- reload the browser
+                e.preventDefault();
+                // check if input is not empty
+                if (input.value) {
+                    // sent message to server
+                    socket.emit('chat message', input.value);
+                    input.value = ''; // clear input box
+                }
+            });
         </script>
     </body>
 </html>
