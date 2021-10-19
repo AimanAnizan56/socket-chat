@@ -18,6 +18,8 @@ io.on('connection', (socket) => {
     // receive message
     socket.on('chat message', (msg) => {
         console.log(`message: ${msg}`);
+        // send chat message to all of connected user
+        io.emit('chat message', msg);
     });
 
     socket.on('disconnect', () => {
