@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 
 // listen to incoming connection event
 io.on('connection', (socket) => {
-    console.log('A user connected');
+    console.log('\nA user connected');
 
     // receive message
     socket.on('chat message', (msg) => {
@@ -25,7 +25,7 @@ io.on('connection', (socket) => {
     });
 
     socket.on('disconnect', () => {
-        console.log('A user disconnected');
+        console.log('\nA user disconnected');
     });
 });
 
